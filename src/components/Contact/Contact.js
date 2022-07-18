@@ -26,6 +26,7 @@ const Contact = () => {
             {social.github && (
               <a
                 href={social.github}
+                target="_blank" rel="noopener noreferrer"
                 aria-label='github'
                 className='link link--icon'
               >
@@ -36,6 +37,7 @@ const Contact = () => {
             {social.linkedin && (
               <a
                 href={social.linkedin}
+                target="_blank" rel="noopener noreferrer"
                 aria-label='linkedin'
                 className='link link--icon'
               >
@@ -46,6 +48,7 @@ const Contact = () => {
             {social.devpost && (
               <a
                 href={social.devpost}
+                target="_blank" rel="noopener noreferrer"
                 aria-label='devpost'
                 className='link link--icon'
               >
@@ -56,6 +59,7 @@ const Contact = () => {
             {social.medium && (
               <a
                 href={social.medium}
+                target="_blank" rel="noopener noreferrer"
                 aria-label='medium'
                 className='link link--icon'
               >
@@ -66,6 +70,7 @@ const Contact = () => {
             {social.scholar && (
               <a
                 href={social.scholar}
+                target="_blank" rel="noopener noreferrer"
                 aria-label='scholar'
                 className='link link--icon'
               >
