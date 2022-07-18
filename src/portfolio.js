@@ -1,14 +1,14 @@
 const header = {
-  homepage: 'https://github.com/liuhh02',
+  homepage: 'https://liuhh02.github.io/',
   title: 'Haohui',
 }
 
 const about = {
   name: 'Haohui Liu',
-  role: 'Machine Learning Engineer & Web Developer',
+  role: 'Machine Learning & Web Development Enthusiast',
   description:
-    'I’m a Computer Science undergraduate at Carnegie Mellon University deeply interested in Machine Learning and Web Development. In my free-time, I enjoy participating in hackathons, designing and gyming. Check out my experience and personal projects I have made below!',
-  resume: 'https://docs.google.com/viewerng/viewer?url=https://github.com/liuhh02/resume/raw/main/Resume.pdf',
+    'I’m a Computer Science undergraduate at Carnegie Mellon University deeply interested in Machine Learning and Web Development. In my free-time, I enjoy participating in hackathons, graphic designing and gyming. Check out my experience and personal projects I have made below!',
+  resume: 'https://liuhh02.github.io/resume/',
   social: {
     linkedin: 'https://www.linkedin.com/in/liu-haohui/',
     github: 'https://github.com/liuhh02',
@@ -172,18 +172,18 @@ const awards = [
   'Quantathon 2022 First Runners Up (Sponsored by Goldman Sachs)',
   'UChicago Trading Competition 2022 (Selected from over 20 teams to represent CMU)',
   'Dean\'s List with High Honors Fall 2021',
-  'Lee Kuan Yew Award for Mathematics and Science 2021 (1 of 12 awarded nationwide)',
-  'Shopee Code League 2021 7th Place in Open Category (Top team from Singapore; awarded $800)',
+  // 'Lee Kuan Yew Award for Mathematics and Science 2021 (1 of 12 awarded nationwide)',
+  // 'Shopee Code League 2021 7th Place in Open Category (Top team from Singapore; awarded $800)',
   'Superposition V Hackathon Champion',
   'Best Fintech Hack & Best Use of SQL at cmd-f (Issued by University of British Columbia)',
   'FinTech Nations 2020 Hackathon Winner',
   'Most Impactful Data-Driven Hack at HackViolet (Issued by Virigina Tech)',
   'Top 6 at Hack for Humanity 2021 (Issued by Santa Clara University)',
-  '3rd Place for Essay Competition on Mathematics and AI 2020 (Issued by Singapore Mathematical Society)',
+  // '3rd Place for Essay Competition on Mathematics and AI 2020 (Issued by Singapore Mathematical Society)',
   'Champion for Tech Takes on Unemployment Hackathon 2020',
   'Champion for Today I Learned AI Competition 2020',
   'Best COVID-19 Hack & Best use of MongoDB at hths.hacks() 2020',
-  'DSTA Junior College Scholarship 2019 - 2020',
+  // 'DSTA Junior College Scholarship 2019 - 2020',
   'Top in High School Cohort for Philosophy',
   '1st in Country for German as Third Language',
   'International Science and Engineering Fair (ISEF) 2019 Fourth Place Award in Category',
@@ -211,6 +211,13 @@ const certificates = [
 
 const contact = {
   email: 'haohuil@andrew.cmu.edu',
+  social: {
+    linkedin: 'https://www.linkedin.com/in/liu-haohui/',
+    github: 'https://github.com/liuhh02',
+    devpost: 'https://devpost.com/liuhh02',
+    medium: 'https://medium.com/@liuhh02',
+    scholar: 'https://scholar.google.com/citations?user=GwwLvzsAAAAJ&hl=en'
+  },
 }
 
 export { header, about, experience, projects, education, skills, awards, certificates, contact }

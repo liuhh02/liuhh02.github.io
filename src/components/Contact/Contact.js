@@ -1,17 +1,81 @@
+import GitHubIcon from '@material-ui/icons/GitHub'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import TerminalIcon from '@mui/icons-material/Terminal'
+import RssFeedIcon from '@mui/icons-material/RssFeed'
+import HistoryEduIcon from '@mui/icons-material/HistoryEdu'
 import { contact } from '../../portfolio'
 import './Contact.css'
 
 const Contact = () => {
   if (!contact.email) return null
+  const { email, social } = contact
 
   return (
     <section className='section contact center' id='contact'>
-      <h2 className='section__title'>Contact</h2>
-      <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
-          Email me
-        </span>
-      </a>
+      <div className='contact center'>
+        {email && (
+          <a href={`mailto:${email}`}>
+            <span type='button' className='btn btn--outline'>
+              Email me
+            </span>
+          </a>
+        )}
+
+        {social && (
+          <>
+            {social.github && (
+              <a
+                href={social.github}
+                aria-label='github'
+                className='link link--icon'
+              >
+                <GitHubIcon />
+              </a>
+            )}
+
+            {social.linkedin && (
+              <a
+                href={social.linkedin}
+                aria-label='linkedin'
+                className='link link--icon'
+              >
+                <LinkedInIcon />
+              </a>
+            )}
+
+            {social.devpost && (
+              <a
+                href={social.devpost}
+                aria-label='devpost'
+                className='link link--icon'
+              >
+                <TerminalIcon />
+              </a>
+            )}
+
+            {social.medium && (
+              <a
+                href={social.medium}
+                aria-label='medium'
+                className='link link--icon'
+              >
+                <RssFeedIcon />
+              </a>
+            )}
+
+            {social.scholar && (
+              <a
+                href={social.scholar}
+                aria-label='scholar'
+                className='link link--icon'
+              >
+                <HistoryEduIcon />
+              </a>
+            )}
+          </>
+        )}
+      </div>
+      
     </section>
   )
 }
