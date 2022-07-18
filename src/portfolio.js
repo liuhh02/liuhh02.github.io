@@ -8,7 +8,7 @@ const about = {
   role: 'Machine Learning Engineer & Web Developer',
   description:
     'I’m a Computer Science undergraduate at Carnegie Mellon University deeply interested in Machine Learning and Web Development. In my free-time, I enjoy participating in hackathons, designing and gyming. Check out my experience and personal projects I have made below!',
-  resume: 'https://liuhh02.github.io/Resume.pdf',
+  resume: 'https://docs.google.com/viewerng/viewer?url=https://github.com/liuhh02/resume/raw/main/Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/liu-haohui/',
     github: 'https://github.com/liuhh02',
