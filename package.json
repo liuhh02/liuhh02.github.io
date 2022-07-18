@@ -2,7 +2,7 @@
   "name": "liuhh02",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://liuhh02.github.io",
+  "homepage": "https://liuhh02.github.io/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -28,6 +28,7 @@
     "eject": "react-scripts eject --openssl-legacy-provider",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "browserslist": {
