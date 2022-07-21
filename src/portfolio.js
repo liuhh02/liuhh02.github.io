@@ -42,15 +42,13 @@ const experience = [
     name: 'Machine Learning Intern @ PayPal',
     stack: 'May 2022 - August 2022',
     description:
-      ['Trained state of the art NLP Transformer models (Longformer, BERT) on imbalanced and longform documents for complaints identification (internship currently in progress)',
-      'More details will be updated after my internship ends!'],
+      ['Trained state of the art NLP Transformer models (Longformer, BERT) on imbalanced and longform documents'],
   },
   {
     name: 'Data Science Intern @ Amili',
     stack: 'April 2021 - July 2021',
     description:
       ['Worked for a bioinformatics start-up to extract insights from human gut microbiome data',
-      'Performed statistical analysis, data visualization, dimensionality reduction (t-SNE, PCA, etc.) in R & Python to extract useful insights from multi-dimensional rRNA data containing over 1 million features',
       'Published research abstract as 1st author in Gut, a leading international peer-reviewed journal (Impact Factor: 23.1)'],
   },
   {
