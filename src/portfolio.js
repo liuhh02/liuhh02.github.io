@@ -7,7 +7,7 @@ const about = {
   name: 'Haohui Liu',
   role: 'Machine Learning & Web Development Enthusiast',
   description:
-    'I’m a Computer Science undergraduate at Carnegie Mellon University deeply interested in Machine Learning and Web Development. In my free-time, I enjoy participating in hackathons, graphic designing and gyming. Check out my experience and personal projects I have made below!',
+    "I’m a Computer Science undergraduate at Carnegie Mellon University deeply interested in Machine Learning and Web Development. In my free-time, I enjoy participating in hackathons, learning new languages and gyming. I learned German from middle school to high school, and am currently learning Korean and Spanish by myself on Duolingo. Check out my experience and personal projects I have made below!",
   resume: 'https://liuhh02.github.io/resume/',
   social: {
     linkedin: 'https://www.linkedin.com/in/liu-haohui/',
@@ -38,6 +38,12 @@ const education = [
 ]
 
 const experience = [
+  {
+    name: 'Machine Learning Intern @ PayPal',
+    stack: 'May 2023 - August 2024',
+    description:
+      ["Used advanced prompt engineering with OpenAI's GPT-4, Google's PaLM 2 & langchain for end-to-end question & answering of BigQuery database"],
+  },
   {
     name: 'Machine Learning Intern @ PayPal',
     stack: 'May 2022 - August 2022',
@@ -136,10 +142,13 @@ const skills = [
   'Bash',
   'Natural Language Processing (NLP)',
   'Computer Vision (CV)',
+  'Prompt Engineering',
   'Time Series',
   'Interpretable Machine Learning',
   'PyTorch',
   'TensorFlow',
+  'langchain',
+  'OpenAI',
   'Fastai',
   'Keras',
   'HuggingFace',
@@ -159,6 +168,7 @@ const skills = [
   'Streamlit',
   'Firebase',
   'Google Cloud',
+  'BigQuery',
   'Heroku',
   'PythonAnywhere',
   'Linux',
